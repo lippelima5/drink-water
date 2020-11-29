@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "79961996992",
+    "firebase_url": "https://mw-drinkwater.firebaseio.com",
+    "project_id": "mw-drinkwater",
+    "storage_bucket": "mw-drinkwater.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79961996992:android:08a5063c763f5b62723725",
+        "android_client_info": {
+          "package_name": "com.markwareco.drinkwater"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "79961996992-8bbogc36pbgjbfqif7o37eq63sidnpkr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtxEsiERnh6QOw-utTudwydL1zL6CF1Ms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "79961996992-8bbogc36pbgjbfqif7o37eq63sidnpkr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
