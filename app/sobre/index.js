@@ -40,13 +40,13 @@ export default class index extends Component {
             Todos os direitos reservados à Markware Company
           </Text>
           <View style={styles.adsBannerContainer}>
-            {/* <BannerAd
+            <BannerAd
               unitId={adUnitId}
               size={BannerAdSize.ADAPTIVE_BANNER}
               requestOptions={{
                 requestNonPersonalizedAdsOnly: true,
               }}
-            /> */}
+            />
           </View>
         </View>
       </SafeAreaView>

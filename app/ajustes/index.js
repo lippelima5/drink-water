@@ -58,6 +58,13 @@ export default class ajustes extends Component {
           isLoading: false,
         });
         console.log('sdas');
+      } else {
+        this.setState({
+          startTime: 6,
+          finalTime: 22,
+          frequencia: 2,
+          isLoading: false,
+        });
       }
     } catch (error) {
       console.log('Error OnLoadInfo', error);
@@ -65,7 +72,9 @@ export default class ajustes extends Component {
         startTime: 6,
         finalTime: 22,
         frequencia: 2,
+        isLoading: false,
       });
+      console.log('sadasdsa');
     }
   }
 
@@ -193,13 +202,13 @@ export default class ajustes extends Component {
               style={styles.button}>
               <Text style={styles.textButton}>Salvar</Text>
             </TouchableOpacity>
-            {/* <BannerAd
+            <BannerAd
               unitId={adUnitId}
               size={BannerAdSize.ADAPTIVE_BANNER}
               requestOptions={{
                 requestNonPersonalizedAdsOnly: true,
               }}
-            /> */}
+            />
           </View>
         </ScrollView>
       </SafeAreaView>

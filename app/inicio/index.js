@@ -107,13 +107,13 @@ export default class inicio extends Component {
           </TouchableOpacity> */}
 
           <View style={styles.adsBannerContainer}>
-            {/* <BannerAd
+            <BannerAd
               unitId={adUnitId}
               size={BannerAdSize.ADAPTIVE_BANNER}
               requestOptions={{
                 requestNonPersonalizedAdsOnly: true,
               }}
-            /> */}
+            />
           </View>
         </View>
       </SafeAreaView>
